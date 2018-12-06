@@ -3059,6 +3059,9 @@ var Geosuggest = (function () {
                     placeId: suggestToGeocode.placeId,
                     sessionToken: this.sessionToken
                 };
+                if (this.props.placeDetailFields) {
+                    options.fields = this.props.placeDetailFields;
+                }
                 this.placesService.getDetails(options, function (results, status) {
                     if (status === _this.googleMaps.places.PlacesServiceStatus.OK) {
                         var gmaps = results;
