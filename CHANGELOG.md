@@ -1,3 +1,11 @@
+### 2.9.1 (2018-12-06)
+
+
+#### Features
+
+* **geosuggest:** add optional `placeDetailsField` prop to limit place details fields ([4a14c1af](https://github.com/ubilabs/react-geosuggest/commit/4a14c1afabee205c1b2e21ac63680c67675dd422))
+
+
 ## 2.9.0 (2018-10-19)
 
 
